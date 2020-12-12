@@ -1,0 +1,7 @@
+name: Build Grasshopper Plugin
+
+on:
+	push:
+		branches: [develop]
+	pull_request:
+		branches: [main, develop]
