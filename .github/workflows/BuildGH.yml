@@ -35,3 +35,8 @@ jobs:
       - name: Build the application
         run: msbuild /p:Configuration=Release
 
+      - name: upload Build items
+        uses: actions/upload-artifact@v2
+        with:
+          name: GrasshopperComponent
+          path: ./CISample/bin/CISample.gha
