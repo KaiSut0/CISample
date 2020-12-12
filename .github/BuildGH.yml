@@ -1,0 +1,9 @@
+﻿# このワークフローの名前（バッジを作るときなどに使う）
+name: Build Grasshopper Plugin
+
+on:
+  push: # develop にプッシュしたときに動く
+    branches: [develop]
+  pull_request: # main と develop にプルリクしたときに動く
+    branches: [master, develop]
+
