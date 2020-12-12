@@ -35,17 +35,3 @@ jobs:
       - name: Build the application
         run: msbuild /p:Configuration=Release
 
-      # Test向けに dotnet.exe をセットアップ
-      - name: Setup .NET Core
-        uses: actions/setup-dotnet@v1
-
-      # Test を実行
-      - name: Run Test
-        run: dotnet test GrasshopperCISampleTests\bin\Release\GrasshopperCISampleTests.dll
-
-      # 対象パスにあるファイルを GitHub にアップロードする
-      - name: Upload build as artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: GrasshopperComponent
-          path: ./GrasshopperCISample/bin/GrasshopperCISample.gha
