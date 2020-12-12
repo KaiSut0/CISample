@@ -1,0 +1,40 @@
+﻿# このワークフローの名前（バッジを作るときなどに使う）
+name: Build Grasshopper Plugin
+
+on:
+  push: # develop にプッシュしたときに動く
+    branches: [develop]
+  pull_request: # main と develop にプルリクしたときに動く
+    branches: [master, develop]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup MSBuild.exe
+        uses: microsoft/setup-msbuild@v1
+
+      - name: Setup Nuget
+        uses: Nuget/setup-nuget@v1
+
+      - name: Restore the application
+        run: msbuild /t:Restore /p:Configuration=Release
+
+      - name: Build the application
+        run: msbuild /p:Configuration=Release
+
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+
+      - name: Run Test
+        run: dotnet test GrasshopperCISampleTests\bin\Release\GrasshopperCISampleTests.dll
+
+      - name: Upload build as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: GrasshopperComponent
+          path: ./GrasshopperCISample/bin/GrasshopperCISample.gha
