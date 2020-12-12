@@ -9,32 +9,40 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    # Github Actions での Windows の最新の環境を指定
+    #（現在は Windows Server 2019 になる）
+    runs-on: windows-latest # windows-2019 でも同じ意味
 
     steps:
+      # git のチェックアウトを行い、この環境に対象のリポを取得する
       - name: Checkout
         uses: actions/checkout@v2
 
+      # Vusial Studio (MSBuild)のセットアップをする
       - name: Setup MSBuild.exe
         uses: microsoft/setup-msbuild@v1
 
-      - name: Setup Nuget
-        uses: Nuget/setup-nuget@v1
+      # nuget のセットアップをする
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1
 
+      # solution ファイルの状態を復元する
+      # 例えば、nuget で参照しているファイルを取得するなど
       - name: Restore the application
         run: msbuild /t:Restore /p:Configuration=Release
 
+      # Build 実行
       - name: Build the application
         run: msbuild /p:Configuration=Release
 
-      - name: Setup .NET Core
+      - name: Setup .NetCore
         uses: actions/setup-dotnet@v1
 
-      - name: Run Test
-        run: dotnet test GrasshopperCISampleTests\bin\Release\GrasshopperCISampleTests.dll
+      - name: Run test
+        run: dotnet test CISampleTests/bin/Release/CISampleTests.dll
 
-      - name: Upload build as artifact
+      - name: upload Build items
         uses: actions/upload-artifact@v2
         with:
           name: GrasshopperComponent
-          path: ./GrasshopperCISample/bin/GrasshopperCISample.gha
+          path: ./CISample/bin/CISample.gha
