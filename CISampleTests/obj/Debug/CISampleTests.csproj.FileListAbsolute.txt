@@ -1,0 +1,14 @@
+C:\Users\dqm2k\source\repos\CISample\CISampleTests\obj\Debug\CISampleTests.csprojAssemblyReference.cache
+C:\Users\dqm2k\source\repos\CISample\CISampleTests\obj\Debug\CISampleTests.csproj.CoreCompileInputs.cache
+C:\Users\dqm2k\source\repos\CISample\CISampleTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\dqm2k\source\repos\CISample\CISampleTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\dqm2k\source\repos\CISample\CISampleTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\dqm2k\source\repos\CISample\CISampleTests\bin\Debug\CISampleTests.dll
+C:\Users\dqm2k\source\repos\CISample\CISampleTests\bin\Debug\CISampleTests.pdb
+C:\Users\dqm2k\source\repos\CISample\CISampleTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\dqm2k\source\repos\CISample\CISampleTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\dqm2k\source\repos\CISample\CISampleTests\bin\Debug\CISample.dll
+C:\Users\dqm2k\source\repos\CISample\CISampleTests\bin\Debug\CISample.pdb
+C:\Users\dqm2k\source\repos\CISample\CISampleTests\obj\Debug\CISampleTests.csproj.CopyComplete
+C:\Users\dqm2k\source\repos\CISample\CISampleTests\obj\Debug\CISampleTests.dll
+C:\Users\dqm2k\source\repos\CISample\CISampleTests\obj\Debug\CISampleTests.pdb

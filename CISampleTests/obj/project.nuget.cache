@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "m2q2MvRwEayovdjlHFMwFTPj41IijUYbah4vK9uDMkhoKfKkR9Xoikp2IiFzyLOG//7LRDY3V0At0WOc4ZaH4w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dqm2k\\source\\repos\\CISample\\CISampleTests\\CISampleTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dqm2k\\.nuget\\packages\\grasshopper\\6.30.20288.16411\\grasshopper.6.30.20288.16411.nupkg.sha512",
+    "C:\\Users\\dqm2k\\.nuget\\packages\\mstest.testadapter\\2.1.1\\mstest.testadapter.2.1.1.nupkg.sha512",
+    "C:\\Users\\dqm2k\\.nuget\\packages\\mstest.testframework\\2.1.1\\mstest.testframework.2.1.1.nupkg.sha512",
+    "C:\\Users\\dqm2k\\.nuget\\packages\\rhinocommon\\6.30.20288.16411\\rhinocommon.6.30.20288.16411.nupkg.sha512"
+  ],
+  "logs": []
+}

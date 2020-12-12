@@ -1,0 +1,6 @@
+C:\Users\dqm2k\source\repos\CISample\CISample\bin\CISample.dll
+C:\Users\dqm2k\source\repos\CISample\CISample\bin\CISample.pdb
+C:\Users\dqm2k\source\repos\CISample\CISample\obj\Debug\CISample.csprojAssemblyReference.cache
+C:\Users\dqm2k\source\repos\CISample\CISample\obj\Debug\CISample.csproj.CoreCompileInputs.cache
+C:\Users\dqm2k\source\repos\CISample\CISample\obj\Debug\CISample.dll
+C:\Users\dqm2k\source\repos\CISample\CISample\obj\Debug\CISample.pdb

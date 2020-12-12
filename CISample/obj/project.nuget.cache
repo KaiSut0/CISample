@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/C+Fe21nRbDj5dW8YKzYm1ZdATx98fbGieMoJtDonqmfdc87GfDSJGJhZleFNsZfKgjlxa/jnHx0+cwJ9i8vRQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dqm2k\\source\\repos\\CISample\\CISample\\CISample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dqm2k\\.nuget\\packages\\grasshopper\\6.30.20288.16411\\grasshopper.6.30.20288.16411.nupkg.sha512",
+    "C:\\Users\\dqm2k\\.nuget\\packages\\rhinocommon\\6.30.20288.16411\\rhinocommon.6.30.20288.16411.nupkg.sha512"
+  ],
+  "logs": []
+}
